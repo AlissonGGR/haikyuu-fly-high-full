@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --card: #0f0f0f;
+  --ink: #f5f5f5;
+  --ink-muted: #d4d4d4;
+  --border: #262626;
+}
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); }
+
+.prose-invert a { color: theme(colors.karasuno.500); }
